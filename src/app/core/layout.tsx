@@ -57,8 +57,10 @@ export default function RootLayout({
       <SidebarProvider>
         <AppSidebar />
         <SidebarInset>
-          <main className="flex flex-1 flex-col overflow-hidden w-[calc(100vw-48px)]">
-            {children}
+          <main className="flex flex-1 flex-col overflow-hidden w-[calc(100vw-48px)] bg-extended-transparent border-r">
+						<div className="flex-1 overflow-y-auto w-full">
+							{children}
+						</div>
           </main>
         </SidebarInset>
       </SidebarProvider>

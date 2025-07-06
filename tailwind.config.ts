@@ -12,6 +12,7 @@ export default {
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
+				'extended-transparent': 'rgba(255, 255, 255, 0.1)',
   			card: {
   				DEFAULT: 'hsl(var(--card))',
   				foreground: 'hsl(var(--card-foreground))'
@@ -27,10 +28,6 @@ export default {
   			secondary: {
   				DEFAULT: 'hsl(var(--secondary))',
   				foreground: 'hsl(var(--secondary-foreground))'
-  			},
-  			third: {
-  				DEFAULT: 'hsl(var(--third))',
-  				foreground: 'hsl(var(--third-foreground))'
   			},
   			muted: {
   				DEFAULT: 'hsl(var(--muted))',

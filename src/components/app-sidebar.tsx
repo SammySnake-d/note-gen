@@ -62,7 +62,7 @@ export function AppSidebar() {
   return (
     <Sidebar 
       collapsible="none"
-      className="!w-[calc(var(--sidebar-width-icon)_+_1px)] border-r h-screen"
+      className="!w-[calc(var(--sidebar-width-icon)_+_1px)] h-screen bg-transparent"
     >
       <SidebarHeader>
         <SidebarMenu>
